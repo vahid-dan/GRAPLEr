@@ -3,7 +3,7 @@ library(RCurl)
 library(jsonlite)
 library(GRAPLEr)
 
-# Default SubmissionURL is set to http://graple.acis.ufl.edu, use setSubmissionURL method to change submissionURL
+# Default SubmissionURL is set to https://graple.acis.ufl.edu, use setSubmissionURL method to change submissionURL
 graple <- new("Graple")
 
 #The result of the method call is stored in the object itself
